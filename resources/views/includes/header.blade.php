@@ -7,10 +7,10 @@
             <div class="col-4">
                 <ul>
                     <li>
-                        <a href="">Home</a>
+                        <a href="{{route('home')}}">Home</a>
                     </li>
                     <li>
-                        <a href="">About</a>
+                        <a href="{{route('about')}}">About</a>
                     </li>
                 </ul>
             </div>
