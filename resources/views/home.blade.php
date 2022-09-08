@@ -3,11 +3,11 @@
 @section('title', 'Home')
 
 @section('content')
-    <ul>
-        @foreach ($movies as $movie)
-            <li>
-                {{ $movie->title }}
-            </li>
-        @endforeach
-    </ul>
+    <div class="container-lg h-100 pt-5">
+        <div class="row h-100 g-2 ">
+            @foreach ($movies as $movie)
+                @include('includes.movie_card', ['movie' => $movie])
+            @endforeach
+        </div>
+    </div>
 @endsection
