@@ -1,3 +1,3 @@
 <footer>
-    <h1>Footer</h1>
+    <h6>Made With Love By RJMP</h6>
 </footer>

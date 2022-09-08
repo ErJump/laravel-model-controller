@@ -10918,3 +10918,16 @@ header ul a:hover {
   color: #DB202C;
   text-decoration: none;
 }
+
+footer {
+  background-color: rgb(39, 39, 39);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  min-height: 90vh;
+  background-color: rgb(80, 80, 80);
+  color: white;
+}
