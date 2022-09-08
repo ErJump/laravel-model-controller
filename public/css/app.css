@@ -10896,4 +10896,25 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}header {
+  background-color: rgb(39, 39, 39);
+}
+header .container-lg {
+  color: white;
+}
+header ul {
+  list-style: none;
+  margin: 0;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+header ul a {
+  color: white;
+  text-decoration: none;
+}
+header ul a:hover {
+  color: #DB202C;
+  text-decoration: none;
 }
